@@ -5,7 +5,7 @@ A comprehensive, deployment-ready documentation for simulating a multi-tenant Se
 ---
 
 ## 🌐 1. Architectural Overview & Design
-The infrastructure simulates three distinct Service Providers (SPs) interconnected via external border gateway interfaces, alongside distinct interior gateway protocol (IGP) frameworks:
+The infrastructure simulates three distinct Service Providers (SPs) interconnected via external border gateway interfaces, alongside distinct interior gateway protocol (IGP) frameworks: All the password  in this project in file password 
 
 - SP1 (AS 65001): Deploys Multi-Area OSPF (Area 0 & Area 1) across R1, R2, R3, and R4. R2 functions as the Area Border Router (ABR).
 - SP2 (AS 65002): Deploys EIGRP Autonomous System 100 across R5, R6, and R7.
